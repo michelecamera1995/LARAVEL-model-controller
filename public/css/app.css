@@ -6,8 +6,19 @@
 }
 
 .container {
+  display: flex;
   width: 1200px;
   margin: 0 auto;
+}
+
+.container .card {
+  width: 20%;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {

@@ -13,10 +13,12 @@
     <div class="container">
         <h1>Movies</h1>
         @foreach($movies as $movie)
-        <h2>{{movie['title']}}</h2>
-        <p>{{movie['nationality']}}</p>
-        <p>{{movie['date']}}</p>
-        <p>{{movie['vote']}}</p>
+        <div class="card">
+            <h2>{{movie['title']}}</h2>
+            <p>{{movie['nationality']}}</p>
+            <p>{{movie['date']}}</p>
+            <p>{{movie['vote']}}</p>
+        </div>
         @endforeach
     </div>
 
