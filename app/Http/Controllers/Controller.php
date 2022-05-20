@@ -13,6 +13,6 @@ class Controller extends BaseController
     public function index()
     {
         $movies = Movie::all();
-        return view('welcome', $movies);
+        return view('home', $movies);
     }
 }
